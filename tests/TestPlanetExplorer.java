@@ -35,4 +35,13 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("r");
 		assertEquals("0,0,S" , result);
 	}
+	
+	@Test
+	public void test_CommandTurnRightThreeTimesOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		String result = pe.executeCommand("r");
+		assertEquals("0,0,W" , result);
+	}
 }
