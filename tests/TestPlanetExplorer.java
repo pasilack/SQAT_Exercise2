@@ -6,7 +6,13 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_createPlanet() {
-		Planet p = new Planet(100, 100);
-		assertEquals(100,p.getX());
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		assertEquals(100, pe.getX());
+	}
+	
+	@Test
+	public void test_emptyCommandOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		assertEquals("0,0,N" ,pe.executeCommand(""));
 	}
 }

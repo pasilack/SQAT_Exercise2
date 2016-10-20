@@ -26,3 +26,26 @@ RefactoringAction 1476963566978 Planet.java ADD int METHOD
 RefactoringAction 1476963566978 Planet.java ADD void setGrid(int METHOD
 RefactoringAction 1476963580490 Planet.java REMOVE setGrid(int METHOD
 EditAction 1476963581946 Planet.java 314 4 6 0
+UnitTestCaseAction 1476963596744 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476963596745 TestPlanetExplorer.java OK
+RefactoringAction 1476963657264 TestPlanetExplorer.java ADD void test_createPlanet()/2 METHOD
+RefactoringAction 1476963667780 TestPlanetExplorer.java RENAME test_createPlanet()/2=>void test_emp() METHOD
+RefactoringAction 1476963671804 TestPlanetExplorer.java RENAME test_emp()=>void test_emptyCommand() METHOD
+RefactoringAction 1476963673818 TestPlanetExplorer.java RENAME test_emptyCommand()=>void test_emptyCommandOna() METHOD
+RefactoringAction 1476963677835 TestPlanetExplorer.java RENAME test_emptyCommandOna()=>void test_emptyCommandOnANewPlanet() METHOD
+RefactoringAction 1476963806712 Planet.java REMOVE Planet.java CLASS
+CompilationAction 1476963807017 TestPlanetExplorer.java
+CompilationAction 1476963942782 TestPlanetExplorer.java
+CompilationAction 1476963942966 TestPlanetExplorer.java
+UnitTestCaseAction 1476963948432 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963948433 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963964457 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1476963971495 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1476963979522 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476963991553 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1476963991555 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1476963991555 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1476963991556 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1476963995071 PlanetExplorer.java REMOVE setX(int) METHOD
+RefactoringAction 1476964002614 PlanetExplorer.java REMOVE setY(int) METHOD
+EditAction 1476964004909 PlanetExplorer.java 1405 4 3 0
