@@ -144,10 +144,18 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("ff");
 		assertEquals("0,2,N" , result);
 	}
+	
 	@Test
 	public void test_CommandMoveForwardTwoTimesTurnRightMoveForwardTwoTimesOnANewPlanet() {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		String result = pe.executeCommand("ffrff");
 		assertEquals("2,2,E" , result);
+	}
+	
+	@Test
+	public void test_CommandMoveBackwardOnceOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		String result = pe.executeCommand("b");
+		assertEquals("0,99,N" , result);
 	}
 }

@@ -123,3 +123,5 @@
 1476967667711 test-first 3 779 true
 1476967667712 test-first 3 779 true
 1476967667713 test-first 3 779 true
+1476967683726 test-addition 1 4 true
+1476967683727 test-addition 1 4 true
