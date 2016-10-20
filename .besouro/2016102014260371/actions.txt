@@ -372,3 +372,5 @@ EditAction 1476969443299 PlanetExplorer.java 3261 5 11 0
 CompilationAction 1476969443583 PlanetExplorer.java
 RefactoringAction 1476969472965 CurrentPosition.java RENAME isOntheEdgeBeforeMove()=>boolean isOnTheEdgeBeforeMove() METHOD
 EditAction 1476969474392 CurrentPosition.java 914 14 18 0
+CompilationAction 1476969474669 PlanetExplorer.java
+EditAction 1476969483484 PlanetExplorer.java 3261 5 11 0

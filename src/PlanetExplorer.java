@@ -93,7 +93,7 @@ public class PlanetExplorer {
 						cp.moveNorth();
 				}
 				if(cp.getHeading() == 'W') {
-					if(cp.isOntheEdgeBeforeMove()) {
+					if(cp.isOnTheEdgeBeforeMove()) {
 						cp.setX(x-1);
 					}
 					cp.moveWest();
