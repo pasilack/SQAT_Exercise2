@@ -351,3 +351,4 @@ RefactoringAction 1476969054251 CurrentPosition.java RENAME moveNorth()/2=>void 
 RefactoringAction 1476969055261 CurrentPosition.java RENAME move()=>void movees() METHOD
 RefactoringAction 1476969057771 CurrentPosition.java RENAME movees()=>void moveEast() METHOD
 EditAction 1476969062247 CurrentPosition.java 848 13 17 0
+EditAction 1476969200446 PlanetExplorer.java 3192 5 11 0
