@@ -96,4 +96,12 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("f");
 		assertEquals("0,2,N" , result);
 	}
+	
+	@Test
+	public void test_CommandMoveForwardAndBackwardOnceOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.executeCommand("f");
+		String result = pe.executeCommand("b");
+		assertEquals("0,0,N" , result);
+	}
 }

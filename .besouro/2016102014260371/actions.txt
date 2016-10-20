@@ -196,3 +196,10 @@ RefactoringAction 1476966086357 TestPlanetExplorer.java ADD void test_CommandMov
 RefactoringAction 1476966091871 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceOnANewPlanet()/2=>void test_CommandMoveForwardTwoOnANewPlanet() METHOD
 RefactoringAction 1476966093889 TestPlanetExplorer.java RENAME test_CommandMoveForwardTwoOnANewPlanet()=>void test_CommandMoveForwardTwoTimesOnANewPlanet() METHOD
 EditAction 1476966103868 TestPlanetExplorer.java 2692 12 45 12
+UnitTestCaseAction 1476966111374 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966111375 TestPlanetExplorer.java OK
+RefactoringAction 1476966122430 TestPlanetExplorer.java ADD void test_CommandMoveForwardOnceOnANewPlanet()/2 METHOD
+RefactoringAction 1476966129945 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceOnANewPlanet()/2=>void test_CommandMoveBackwardOnceOnANewPlanet() METHOD
+RefactoringAction 1476966212002 TestPlanetExplorer.java RENAME test_CommandMoveBackwardOnceOnANewPlanet()=>void test_CommandMoveForwardBackwardOnceOnANewPlanet() METHOD
+RefactoringAction 1476966213513 TestPlanetExplorer.java RENAME test_CommandMoveForwardBackwardOnceOnANewPlanet()=>void test_CommandMoveForwardAndBackwardOnceOnANewPlanet() METHOD
+EditAction 1476966219790 TestPlanetExplorer.java 2930 13 49 13
