@@ -88,6 +88,9 @@ public class PlanetExplorer {
 			if(cp.getHeading() == 'S') {
 				cp.setY(cp.getY() - 1);
 			}
+			if(cp.getHeading() == 'E') {
+				cp.setX(cp.getX() + 1);
+			}
 			return cp.toString();
 		}
 		
@@ -100,6 +103,9 @@ public class PlanetExplorer {
 			}
 			if(cp.getHeading() == 'S') {
 				cp.setY(cp.getY() + 1);
+			}
+			if(cp.getHeading() == 'E') {
+				cp.setX(cp.getX() - 1);
 			}
 			return cp.toString();
 		}
