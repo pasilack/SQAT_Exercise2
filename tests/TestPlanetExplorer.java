@@ -166,4 +166,12 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("b");
 		assertEquals("99,0,E" , result);
 	}
+	
+	@Test
+	public void test_CommandMoveForwardOnceWhileHeadingIsEastOnPosition99_99() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.setCurrentPosition(99, 99, 'E');
+		String result = pe.executeCommand("f");
+		assertEquals("0,99,E" , result);
+	}
 }
