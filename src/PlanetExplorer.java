@@ -103,7 +103,7 @@ public class PlanetExplorer {
 					cp.moveSouth();
 				}
 				if(cp.getHeading() == 'E') {
-					if(cp.getX() + 1 > x-1) {
+					if(cp.isOnTheEdgeBeforeMove('f')) {
 						cp.setX(0);
 					}
 					else
