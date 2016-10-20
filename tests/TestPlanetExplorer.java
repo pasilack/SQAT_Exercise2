@@ -21,4 +21,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		assertEquals("0,0,W" ,pe.executeCommand("l"));
 	}
+	
+	@Test
+	public void test_CommandTurnRightOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		assertEquals("0,0,E" ,pe.executeCommand("r"));
+	}
 }

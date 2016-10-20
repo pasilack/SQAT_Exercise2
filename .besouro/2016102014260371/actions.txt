@@ -102,3 +102,8 @@ UnitTestCaseAction 1476965040025 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476965040025 TestPlanetExplorer.java FAIL
 EditAction 1476965150186 PlanetExplorer.java 1673 4 8 0
 EditAction 1476965162697 PlanetExplorer.java 1698 4 8 0
+UnitTestCaseAction 1476965164471 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965164472 TestPlanetExplorer.java OK
+RefactoringAction 1476965177093 TestPlanetExplorer.java ADD void test_CommandTurnLeftOnANewPlanet()/2 METHOD
+RefactoringAction 1476965182604 TestPlanetExplorer.java RENAME test_CommandTurnLeftOnANewPlanet()/2=>void test_CommandTurnRightOnANewPlanet() METHOD
+EditAction 1476965198940 TestPlanetExplorer.java 727 4 8 4
