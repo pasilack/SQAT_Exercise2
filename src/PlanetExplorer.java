@@ -21,6 +21,8 @@ public class PlanetExplorer {
 		this.x = x;
 		this.y = y;
 		this.obstacles = obstacles;
+		cp.setSizeX(x);
+		cp.setSizeY(y);
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
