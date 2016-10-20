@@ -99,7 +99,7 @@ public class PlanetExplorer {
 					cp.setY(cp.getY() - 1);
 				}
 				if(cp.getHeading() == 'E') {
-					if(cp.getX() + 1>99) {
+					if(cp.getX() + 1 > 99) {
 						cp.setX(0);
 					}
 					else
