@@ -52,6 +52,13 @@ public class PlanetExplorer {
 			}
 			return cp.toString();
 		}
+		
+		if(command.equals("r")) {
+			if(cp.getHeading() == 'N') {
+				cp.setHeading('E');
+			}
+			return cp.toString();
+		}
 				
 		return null;
 	}
