@@ -287,3 +287,6 @@ RefactoringAction 1476968091119 TestPlanetExplorer.java RENAME test_CommandMoveB
 RefactoringAction 1476968098130 TestPlanetExplorer.java RENAME test_CommandMoveBackwardOnceWhileOnANewPlanet()=>void test_CommandMoveBackwardOnceWhileHeadingOnANewPlanet() METHOD
 RefactoringAction 1476968101645 TestPlanetExplorer.java RENAME test_CommandMoveBackwardOnceWhileHeadingOnANewPlanet()=>void test_CommandMoveBackwardOnceWhileHeadingIsEastOnANewPlanet() METHOD
 EditAction 1476968123881 TestPlanetExplorer.java 4859 20 83 20
+UnitTestCaseAction 1476968126937 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476968126937 TestPlanetExplorer.java FAIL
+EditAction 1476968250970 PlanetExplorer.java 2981 4 8 0

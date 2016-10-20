@@ -106,7 +106,11 @@ public class PlanetExplorer {
 					cp.setY(cp.getY() + 1);
 				}
 				if(cp.getHeading() == 'E') {
-					cp.setX(cp.getX() - 1);
+					if(cp.getX() - 1 < 0) {
+						cp.setX(99);
+					}
+					else
+						cp.setX(cp.getX() - 1);
 				}
 				break;
 				
