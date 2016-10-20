@@ -83,7 +83,7 @@ public class PlanetExplorer {
 				cp.setY(cp.getY() + 1);
 			}
 			if(cp.getHeading() == 'W') {
-				cp.setY(cp.getX() - 1);
+				cp.setX(cp.getX() - 1);
 			}
 			return cp.toString();
 		}
@@ -93,7 +93,7 @@ public class PlanetExplorer {
 				cp.setY(cp.getY() - 1);
 			}
 			if(cp.getHeading() == 'W') {
-				cp.setY(cp.getX() + 1);
+				cp.setX(cp.getX() + 1);
 			}
 			return cp.toString();
 		}
