@@ -24,6 +24,14 @@ public class CurrentPosition {
 	}
 	
 	public CurrentPosition(int x, int y, char heading) {
-		
+		this.x = x;
+		this.y = y;
+		this.heading = heading;
+	}
+	
+	public CurrentPosition() {
+		this.x = 0;
+		this.y = 0;
+		this.heading = 'N';
 	}
 }

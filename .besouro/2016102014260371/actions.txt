@@ -87,3 +87,6 @@ RefactoringAction 1476964789717 CurrentPosition.java RENAME CurrentPosition()=>C
 RefactoringAction 1476964804262 CurrentPosition.java RENAME CurrentPosition(int, int)=>CurrentPosition(int, int, char) METHOD
 RefactoringAction 1476964828314 CurrentPosition.java RENAME setHeading(int)=>void setHeading(char) METHOD
 EditAction 1476964840119 CurrentPosition.java 460 7 6 0
+RefactoringAction 1476964869392 CurrentPosition.java ADD CurrentPosition(int, int, char)/2 METHOD
+RefactoringAction 1476964874416 CurrentPosition.java RENAME CurrentPosition(int, int, char)/2=>CurrentPosition() METHOD
+EditAction 1476964886367 CurrentPosition.java 602 8 12 0
