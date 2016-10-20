@@ -23,6 +23,14 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void test_CommandTurnLeftTwoTimesOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.executeCommand("l");
+		String result = pe.executeCommand("l");
+		assertEquals("0,0,W" , result);
+	}
+	
+	@Test
 	public void test_CommandTurnRightOnANewPlanet() {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		assertEquals("0,0,E" ,pe.executeCommand("r"));
