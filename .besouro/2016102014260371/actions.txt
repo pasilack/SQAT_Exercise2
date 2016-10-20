@@ -340,3 +340,14 @@ EditAction 1476968983763 PlanetExplorer.java 3252 5 11 0
 UnitTestCaseAction 1476968985217 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476968985218 TestPlanetExplorer.java OK
 EditAction 1476969012741 PlanetExplorer.java 3244 5 11 0
+UnitTestCaseAction 1476969014308 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476969014308 TestPlanetExplorer.java OK
+RefactoringAction 1476969026169 CurrentPosition.java ADD void moveNorth()/2 METHOD
+RefactoringAction 1476969030679 CurrentPosition.java RENAME moveNorth()/2=>void moveSouth() METHOD
+RefactoringAction 1476969036200 CurrentPosition.java ADD void moveNorth()/2 METHOD
+RefactoringAction 1476969042709 CurrentPosition.java RENAME moveNorth()/2=>void moveWest() METHOD
+RefactoringAction 1476969051242 CurrentPosition.java ADD void moveNorth()/2 METHOD
+RefactoringAction 1476969054251 CurrentPosition.java RENAME moveNorth()/2=>void move() METHOD
+RefactoringAction 1476969055261 CurrentPosition.java RENAME move()=>void movees() METHOD
+RefactoringAction 1476969057771 CurrentPosition.java RENAME movees()=>void moveEast() METHOD
+EditAction 1476969062247 CurrentPosition.java 848 13 17 0

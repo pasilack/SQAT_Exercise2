@@ -42,4 +42,16 @@ public class CurrentPosition {
 	public void moveNorth(){
 		y++;
 	}
+	
+	public void moveSouth(){
+		y--;
+	}
+	
+	public void moveWest(){
+		x--;
+	}
+	
+	public void moveEast(){
+		x++;
+	}
 }
