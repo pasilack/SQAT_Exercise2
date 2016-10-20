@@ -336,3 +336,4 @@ RefactoringAction 1476968903577 CurrentPosition.java ADD void m FIELD
 RefactoringAction 1476968906586 CurrentPosition.java RENAME m=>void moveNorth FIELD
 RefactoringAction 1476968908096 CurrentPosition.java RENAME moveNorth=>void moveNorth() METHOD
 EditAction 1476968958404 CurrentPosition.java 724 10 14 0
+EditAction 1476968983763 PlanetExplorer.java 3252 5 11 0

@@ -90,7 +90,7 @@ public class PlanetExplorer {
 						cp.setY(0);
 					}
 					else
-						cp.setY(cp.getY() + 1);
+						cp.moveNorth();
 				}
 				if(cp.getHeading() == 'W') {
 					cp.setX(cp.getX() - 1);
