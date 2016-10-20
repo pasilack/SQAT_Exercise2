@@ -55,8 +55,10 @@ public class CurrentPosition {
 		x++;
 	}
 	
-	public boolean isOnTheEdgeBeforeMove() {
-		if(heading == 'W' && )
-		return true;
+	public boolean isOnTheEdgeBeforeMove(char movement) {
+		if(heading == 'W' && movement =='f' && x == 0) {
+			return true;
+		}
+		return false;
 	}
 }
