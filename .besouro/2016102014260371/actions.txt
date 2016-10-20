@@ -352,3 +352,10 @@ RefactoringAction 1476969055261 CurrentPosition.java RENAME move()=>void movees(
 RefactoringAction 1476969057771 CurrentPosition.java RENAME movees()=>void moveEast() METHOD
 EditAction 1476969062247 CurrentPosition.java 848 13 17 0
 EditAction 1476969200446 PlanetExplorer.java 3192 5 11 0
+UnitTestCaseAction 1476969201956 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476969201956 TestPlanetExplorer.java OK
+RefactoringAction 1476969227327 TestPlanetExplorer.java ADD void test_CommandMoveForwardOnceWhileHeadingIsEastOnPosition99_99()/2 METHOD
+RefactoringAction 1476969235840 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsEastOnPosition99_99()/2=>void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition99_99() METHOD
+RefactoringAction 1476969239353 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition99_99()=>void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_99() METHOD
+RefactoringAction 1476969241867 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_99()=>void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_0() METHOD
+EditAction 1476969265216 TestPlanetExplorer.java 5639 23 95 23
