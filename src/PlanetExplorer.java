@@ -47,6 +47,9 @@ public class PlanetExplorer {
 		}
 		
 		if(command.equals("l")) {
+			if(cp.getHeading() == 'N') {
+				cp.setHeading('W');
+			}
 		}
 				
 		return null;
