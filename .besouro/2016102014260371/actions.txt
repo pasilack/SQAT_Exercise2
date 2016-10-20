@@ -61,3 +61,11 @@ RefactoringAction 1476964177708 PlanetExplorer.java RENAME getCurrentPosition=>S
 RefactoringAction 1476964331386 PlanetExplorer.java REMOVE getCurrentPosition() METHOD
 RefactoringAction 1476964344425 PlanetExplorer.java RENAME CurrentPosition=>String currentPosition FIELD
 EditAction 1476964349338 PlanetExplorer.java 1561 4 7 0
+UnitTestCaseAction 1476964351045 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964351045 TestPlanetExplorer.java OK
+RefactoringAction 1476964372440 TestPlanetExplorer.java ADD void test_emptyCommandOnANewPlanet()/2 METHOD
+RefactoringAction 1476964378954 TestPlanetExplorer.java RENAME test_emptyCommandOnANewPlanet()/2=>void test_NewCommandOnANewPlanet() METHOD
+RefactoringAction 1476964383472 TestPlanetExplorer.java RENAME test_NewCommandOnANewPlanet()=>void test_CommandOnANewPlanet() METHOD
+RefactoringAction 1476964387985 TestPlanetExplorer.java RENAME test_CommandOnANewPlanet()=>void test_CommandTurnLOnANewPlanet() METHOD
+RefactoringAction 1476964388999 TestPlanetExplorer.java RENAME test_CommandTurnLOnANewPlanet()=>void test_CommandTurnLeftOnANewPlanet() METHOD
+EditAction 1476964404275 TestPlanetExplorer.java 559 3 6 3
