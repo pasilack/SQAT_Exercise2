@@ -94,3 +94,4 @@ RefactoringAction 1476964898404 PlanetExplorer.java REMOVE currentPosition FIELD
 RefactoringAction 1476964916961 PlanetExplorer.java ADD CurrentPosition cp FIELD
 RefactoringAction 1476964943981 CurrentPosition.java ADD void toString() METHOD
 EditAction 1476965001425 CurrentPosition.java 682 9 13 0
+EditAction 1476965011944 PlanetExplorer.java 1612 4 8 0

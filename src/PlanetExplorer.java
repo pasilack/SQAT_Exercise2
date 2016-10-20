@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	private int x;
 	private int y;
 	private String obstacles;
-	private String currentPosition = "0,0,N";
+	private CurrentPosition cp = new CurrentPosition();
 	
 	public int getX() {
 		return x;
@@ -42,9 +42,13 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command.equals(""))
-			return currentPosition;
+		if(command.equals("")) {
+			return cp.toString();
+		}
 		
+		if(command.equals("l")) {
+		}
+				
 		return null;
 	}
 }
