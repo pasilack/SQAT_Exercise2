@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		pe.executeCommand("l");
 		String result = pe.executeCommand("l");
-		assertEquals("0,0,W" , result);
+		assertEquals("0,0,S" , result);
 	}
 	
 	@Test

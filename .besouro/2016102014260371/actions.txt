@@ -157,3 +157,6 @@ UnitTestSessionAction 1476965667563 TestPlanetExplorer.java OK
 RefactoringAction 1476965682526 TestPlanetExplorer.java ADD void test_CommandTurnLeftOnANewPlanet()/2 METHOD
 RefactoringAction 1476965689537 TestPlanetExplorer.java RENAME test_CommandTurnLeftOnANewPlanet()/2=>void test_CommandTurnLeftTwoTimesOnANewPlanet() METHOD
 EditAction 1476965716228 TestPlanetExplorer.java 1723 8 27 8
+UnitTestCaseAction 1476965718677 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965718677 TestPlanetExplorer.java OK
+EditAction 1476965759109 TestPlanetExplorer.java 1723 8 27 8
