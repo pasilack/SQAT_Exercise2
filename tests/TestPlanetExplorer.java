@@ -158,4 +158,12 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("b");
 		assertEquals("0,99,N" , result);
 	}
+	
+	@Test
+	public void test_CommandMoveBackwardOnceWhileHeadingIsEastOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.executeCommand("r");
+		String result = pe.executeCommand("b");
+		assertEquals("99,0,E" , result);
+	}
 }
