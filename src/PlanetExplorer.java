@@ -118,7 +118,7 @@ public class PlanetExplorer {
 					cp.setX(cp.getX() + 1);
 				}
 				if(cp.getHeading() == 'S') {
-					cp.setY(cp.getY() + 1);
+					cp.moveNorth();
 				}
 				if(cp.getHeading() == 'E') {
 					if(cp.getX() - 1 < 0) {

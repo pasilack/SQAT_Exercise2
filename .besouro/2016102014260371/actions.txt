@@ -337,3 +337,6 @@ RefactoringAction 1476968906586 CurrentPosition.java RENAME m=>void moveNorth FI
 RefactoringAction 1476968908096 CurrentPosition.java RENAME moveNorth=>void moveNorth() METHOD
 EditAction 1476968958404 CurrentPosition.java 724 10 14 0
 EditAction 1476968983763 PlanetExplorer.java 3252 5 11 0
+UnitTestCaseAction 1476968985217 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968985218 TestPlanetExplorer.java OK
+EditAction 1476969012741 PlanetExplorer.java 3244 5 11 0

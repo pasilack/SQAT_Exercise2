@@ -25,3 +25,4 @@
 1476968626093 test-first 3 293 true
 1476968710630 test-first 3 73 true
 1476968862404 refactoring 2A 1 true
+1476968985218 refactoring 2A 81 false
