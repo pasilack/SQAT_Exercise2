@@ -69,3 +69,21 @@ RefactoringAction 1476964383472 TestPlanetExplorer.java RENAME test_NewCommandOn
 RefactoringAction 1476964387985 TestPlanetExplorer.java RENAME test_CommandOnANewPlanet()=>void test_CommandTurnLOnANewPlanet() METHOD
 RefactoringAction 1476964388999 TestPlanetExplorer.java RENAME test_CommandTurnLOnANewPlanet()=>void test_CommandTurnLeftOnANewPlanet() METHOD
 EditAction 1476964404275 TestPlanetExplorer.java 559 3 6 3
+UnitTestCaseAction 1476964406321 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964406322 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964712958 CurrentPosition.java ADD CurrentPosition.java CLASS
+FileOpenedAction 1476964713088 CurrentPosition.java 39 0 0 0
+RefactoringAction 1476964734104 CurrentPosition.java ADD int x FIELD
+RefactoringAction 1476964739611 CurrentPosition.java ADD int y FIELD
+RefactoringAction 1476964750630 CurrentPosition.java ADD int heading FIELD
+RefactoringAction 1476964764143 CurrentPosition.java ADD int getX() METHOD
+RefactoringAction 1476964764144 CurrentPosition.java ADD void setX(int) METHOD
+RefactoringAction 1476964764145 CurrentPosition.java ADD int getY() METHOD
+RefactoringAction 1476964764145 CurrentPosition.java ADD void setY(int) METHOD
+RefactoringAction 1476964764146 CurrentPosition.java ADD int getHeading() METHOD
+RefactoringAction 1476964764147 CurrentPosition.java ADD void setHeading(int) METHOD
+RefactoringAction 1476964782204 CurrentPosition.java ADD CurrentPosition() METHOD
+RefactoringAction 1476964789717 CurrentPosition.java RENAME CurrentPosition()=>CurrentPosition(int, int) METHOD
+RefactoringAction 1476964804262 CurrentPosition.java RENAME CurrentPosition(int, int)=>CurrentPosition(int, int, char) METHOD
+RefactoringAction 1476964828314 CurrentPosition.java RENAME setHeading(int)=>void setHeading(char) METHOD
+EditAction 1476964840119 CurrentPosition.java 460 7 6 0
