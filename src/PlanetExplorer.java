@@ -82,12 +82,18 @@ public class PlanetExplorer {
 			if(cp.getHeading() == 'N') {
 				cp.setY(cp.getY() + 1);
 			}
+			if(cp.getHeading() == 'W') {
+				cp.setY(cp.getX() - 1);
+			}
 			return cp.toString();
 		}
 		
 		if(command.equals("b")) {
 			if(cp.getHeading() == 'N') {
 				cp.setY(cp.getY() - 1);
+			}
+			if(cp.getHeading() == 'W') {
+				cp.setY(cp.getX() + 1);
 			}
 			return cp.toString();
 		}
