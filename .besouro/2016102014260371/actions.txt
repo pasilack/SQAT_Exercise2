@@ -330,3 +330,9 @@ EditAction 1476968706053 PlanetExplorer.java 3258 5 11 0
 UnitTestCaseAction 1476968710630 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476968710630 TestPlanetExplorer.java OK
 EditAction 1476968861145 PlanetExplorer.java 3260 5 11 0
+UnitTestCaseAction 1476968862404 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968862404 TestPlanetExplorer.java OK
+RefactoringAction 1476968903577 CurrentPosition.java ADD void m FIELD
+RefactoringAction 1476968906586 CurrentPosition.java RENAME m=>void moveNorth FIELD
+RefactoringAction 1476968908096 CurrentPosition.java RENAME moveNorth=>void moveNorth() METHOD
+EditAction 1476968958404 CurrentPosition.java 724 10 14 0

@@ -38,4 +38,8 @@ public class CurrentPosition {
 	public String toString() {
 		return "" + x + "," + y + "," + heading;
 	}
+	
+	public void moveNorth(){
+		y++;
+	}
 }
