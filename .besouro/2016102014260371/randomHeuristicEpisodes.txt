@@ -13,3 +13,4 @@
 1476965851686 test-first 3 36 true
 1476966074854 test-first 3 202 true
 1476966111375 test-addition 1 25 false
+1476966267235 test-first 3 144 true
