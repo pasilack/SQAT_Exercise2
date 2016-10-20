@@ -107,10 +107,8 @@ public class PlanetExplorer {
 				break;
 				
 			}
-			return cp.toString();
-			
 		}
 				
-		return null;
+		return cp.toString();
 	}
 }
