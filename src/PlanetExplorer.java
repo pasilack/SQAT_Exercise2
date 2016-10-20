@@ -77,6 +77,12 @@ public class PlanetExplorer {
 			}
 			return cp.toString();
 		}
+		
+		if(command.equals("f")) {
+			if(cp.getHeading() == 'N') {
+				cp.setY(cp.getY() + 1);
+			}
+		}
 				
 		return null;
 	}
