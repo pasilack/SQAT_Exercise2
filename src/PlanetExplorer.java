@@ -46,68 +46,69 @@ public class PlanetExplorer {
 			return cp.toString();
 		}
 		
-		if(command.equals("l")) {
-			if(cp.getHeading() == 'N') {
-				cp.setHeading('W');
-			}
-			else if(cp.getHeading() == 'W') {
-				cp.setHeading('S');
-			}
-			else if(cp.getHeading() == 'S') {
-				cp.setHeading('E');
-			}
-			else if(cp.getHeading() == 'E') {
-				cp.setHeading('N');
+		for(char c: command.toCharArray()) {
+			switch (c) {
+			case 'l' :
+				if(cp.getHeading() == 'N') {
+					cp.setHeading('W');
+				}
+				else if(cp.getHeading() == 'W') {
+					cp.setHeading('S');
+				}
+				else if(cp.getHeading() == 'S') {
+					cp.setHeading('E');
+				}
+				else if(cp.getHeading() == 'E') {
+					cp.setHeading('N');
+				}
+				break;
+			
+			case 'r' :
+				if(cp.getHeading() == 'N') {
+					cp.setHeading('E');
+				}
+				else if(cp.getHeading() == 'E') {
+					cp.setHeading('S');
+				}
+				else if(cp.getHeading() == 'S') {
+					cp.setHeading('W');
+				}
+				else if(cp.getHeading() == 'W') {
+					cp.setHeading('N');
+				}
+				break;
+			case 'f' :
+				if(cp.getHeading() == 'N') {
+					cp.setY(cp.getY() + 1);
+				}
+				if(cp.getHeading() == 'W') {
+					cp.setX(cp.getX() - 1);
+				}
+				if(cp.getHeading() == 'S') {
+					cp.setY(cp.getY() - 1);
+				}
+				if(cp.getHeading() == 'E') {
+					cp.setX(cp.getX() + 1);
+				}
+				break;
+			case 'b' : 
+				if(cp.getHeading() == 'N') {
+					cp.setY(cp.getY() - 1);
+				}
+				if(cp.getHeading() == 'W') {
+					cp.setX(cp.getX() + 1);
+				}
+				if(cp.getHeading() == 'S') {
+					cp.setY(cp.getY() + 1);
+				}
+				if(cp.getHeading() == 'E') {
+					cp.setX(cp.getX() - 1);
+				}
+				break;
+				
 			}
 			return cp.toString();
-		}
-		
-		if(command.equals("r")) {
-			if(cp.getHeading() == 'N') {
-				cp.setHeading('E');
-			}
-			else if(cp.getHeading() == 'E') {
-				cp.setHeading('S');
-			}
-			else if(cp.getHeading() == 'S') {
-				cp.setHeading('W');
-			}
-			else if(cp.getHeading() == 'W') {
-				cp.setHeading('N');
-			}
-			return cp.toString();
-		}
-		
-		if(command.equals("f")) {
-			if(cp.getHeading() == 'N') {
-				cp.setY(cp.getY() + 1);
-			}
-			if(cp.getHeading() == 'W') {
-				cp.setX(cp.getX() - 1);
-			}
-			if(cp.getHeading() == 'S') {
-				cp.setY(cp.getY() - 1);
-			}
-			if(cp.getHeading() == 'E') {
-				cp.setX(cp.getX() + 1);
-			}
-			return cp.toString();
-		}
-		
-		if(command.equals("b")) {
-			if(cp.getHeading() == 'N') {
-				cp.setY(cp.getY() - 1);
-			}
-			if(cp.getHeading() == 'W') {
-				cp.setX(cp.getX() + 1);
-			}
-			if(cp.getHeading() == 'S') {
-				cp.setY(cp.getY() + 1);
-			}
-			if(cp.getHeading() == 'E') {
-				cp.setX(cp.getX() - 1);
-			}
-			return cp.toString();
+			
 		}
 				
 		return null;
