@@ -319,3 +319,8 @@ EditAction 1476968573589 TestPlanetExplorer.java 5120 21 87 21
 UnitTestCaseAction 1476968575892 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476968575893 TestPlanetExplorer.java FAIL
 EditAction 1476968624387 PlanetExplorer.java 3192 5 11 0
+UnitTestCaseAction 1476968626092 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968626093 TestPlanetExplorer.java OK
+RefactoringAction 1476968637170 TestPlanetExplorer.java ADD void test_CommandMoveForwardOnceWhileHeadingIsEastOnPosition99_99()/2 METHOD
+RefactoringAction 1476968643684 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsEastOnPosition99_99()/2=>void test_CommandMoveForwardOnceWhileHeadingIsNorthOnPosition99_99() METHOD
+EditAction 1476968657967 TestPlanetExplorer.java 5380 22 91 22
