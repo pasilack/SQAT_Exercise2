@@ -82,6 +82,7 @@ public class PlanetExplorer {
 			if(cp.getHeading() == 'N') {
 				cp.setY(cp.getY() + 1);
 			}
+			return cp.toString();
 		}
 				
 		return null;
