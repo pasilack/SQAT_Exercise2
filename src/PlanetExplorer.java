@@ -56,6 +56,9 @@ public class PlanetExplorer {
 			else if(cp.getHeading() == 'S') {
 				cp.setHeading('E');
 			}
+			else if(cp.getHeading() == 'E') {
+				cp.setHeading('N');
+			}
 			return cp.toString();
 		}
 		
