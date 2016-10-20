@@ -12,6 +12,12 @@ public class CurrentPosition {
 	public void setX(int x) {
 		this.x = x;
 	}
+	public void setSizeX(int x) {
+		this.sizeX = x;
+	}
+	public void setSizeY(int y) {
+		this.sizeY = y;
+	}
 	public int getY() {
 		return y;
 	}
@@ -61,7 +67,7 @@ public class CurrentPosition {
 		if(heading == 'W' && movement =='f' && x == 0) {
 			return true;
 		}
-		if(heading == 'E' && movement =='f' && x == 0) {
+		if(heading == 'E' && movement =='f' && x == sizeX-1) {
 			return true;
 		}
 		return false;

@@ -387,3 +387,8 @@ RefactoringAction 1476970120303 CurrentPosition.java ADD int sizeX FIELD
 RefactoringAction 1476970123813 CurrentPosition.java ADD int sizeX/2 FIELD
 RefactoringAction 1476970125322 CurrentPosition.java RENAME sizeX/2=>int sizeY FIELD
 EditAction 1476970127572 CurrentPosition.java 1118 14 20 0
+RefactoringAction 1476970139351 CurrentPosition.java ADD void setX(int)/2 METHOD
+RefactoringAction 1476970145861 CurrentPosition.java RENAME setX(int)/2=>void setSizeX(int) METHOD
+RefactoringAction 1476970159899 CurrentPosition.java ADD void setSizeX(int)/2 METHOD
+RefactoringAction 1476970162408 CurrentPosition.java RENAME setSizeX(int)/2=>void setSizeY(int) METHOD
+EditAction 1476970187323 CurrentPosition.java 1234 16 22 0
