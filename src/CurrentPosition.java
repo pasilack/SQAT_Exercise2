@@ -3,6 +3,8 @@ public class CurrentPosition {
 	private int x;
 	private int y;
 	private char heading;
+	private int sizeX;
+	private int sizeY;
 	
 	public int getX() {
 		return x;
@@ -57,6 +59,9 @@ public class CurrentPosition {
 	
 	public boolean isOnTheEdgeBeforeMove(char movement) {
 		if(heading == 'W' && movement =='f' && x == 0) {
+			return true;
+		}
+		if(heading == 'E' && movement =='f' && x == 0) {
 			return true;
 		}
 		return false;

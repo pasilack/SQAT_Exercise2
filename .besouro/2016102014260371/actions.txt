@@ -381,3 +381,9 @@ RefactoringAction 1476969936600 CurrentPosition.java RENAME isOnTheEdgeBeforeMov
 CompilationAction 1476970013569 CurrentPosition.java
 CompilationAction 1476970013760 PlanetExplorer.java
 EditAction 1476970023017 PlanetExplorer.java 3276 5 11 0
+UnitTestCaseAction 1476970027196 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970027196 TestPlanetExplorer.java OK
+RefactoringAction 1476970120303 CurrentPosition.java ADD int sizeX FIELD
+RefactoringAction 1476970123813 CurrentPosition.java ADD int sizeX/2 FIELD
+RefactoringAction 1476970125322 CurrentPosition.java RENAME sizeX/2=>int sizeY FIELD
+EditAction 1476970127572 CurrentPosition.java 1118 14 20 0
