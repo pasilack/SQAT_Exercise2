@@ -86,7 +86,11 @@ public class PlanetExplorer {
 				break;
 			case 'f' :
 				if(cp.getHeading() == 'N') {
-					cp.setY(cp.getY() + 1);
+					if(cp.getY() + 1 > 99) {
+						cp.setY(0);
+					}
+					else
+						cp.setY(cp.getY() + 1);
 				}
 				if(cp.getHeading() == 'W') {
 					cp.setX(cp.getX() - 1);
