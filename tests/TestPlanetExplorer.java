@@ -106,12 +106,23 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_CommandMoveBackwardTwiceAndForwardOnceWhileHeadingIsWOnANewPlanet() {
+	public void test_CommandMoveBackwardTwiceAndForwardOnceWhileHeadingIsWestOnANewPlanet() {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		pe.executeCommand("l");
 		pe.executeCommand("b");
 		pe.executeCommand("b");
 		String result = pe.executeCommand("f");
 		assertEquals("1,0,W" , result);
+	}
+	
+	@Test
+	public void test_CommandMoveBackwardTwiceAndForwardOnceWhileHeadingIsSouthOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.executeCommand("l");
+		pe.executeCommand("l");
+		pe.executeCommand("b");
+		pe.executeCommand("b");
+		String result = pe.executeCommand("f");
+		assertEquals("0,1,S" , result);
 	}
 }
