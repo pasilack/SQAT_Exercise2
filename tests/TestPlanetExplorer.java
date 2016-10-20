@@ -81,4 +81,11 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("r");
 		assertEquals("0,0,N" , result);
 	}
+	
+	@Test
+	public void test_CommandMoveForwardOnceOnANewPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		String result = pe.executeCommand("f");
+		assertEquals("0,1,N" , result);
+	}
 }
