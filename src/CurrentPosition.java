@@ -34,4 +34,8 @@ public class CurrentPosition {
 		this.y = 0;
 		this.heading = 'N';
 	}
+	
+	public String toString() {
+		return "" + x + "," + y + "," + heading;
+	}
 }

@@ -90,3 +90,7 @@ EditAction 1476964840119 CurrentPosition.java 460 7 6 0
 RefactoringAction 1476964869392 CurrentPosition.java ADD CurrentPosition(int, int, char)/2 METHOD
 RefactoringAction 1476964874416 CurrentPosition.java RENAME CurrentPosition(int, int, char)/2=>CurrentPosition() METHOD
 EditAction 1476964886367 CurrentPosition.java 602 8 12 0
+RefactoringAction 1476964898404 PlanetExplorer.java REMOVE currentPosition FIELD
+RefactoringAction 1476964916961 PlanetExplorer.java ADD CurrentPosition cp FIELD
+RefactoringAction 1476964943981 CurrentPosition.java ADD void toString() METHOD
+EditAction 1476965001425 CurrentPosition.java 682 9 13 0
