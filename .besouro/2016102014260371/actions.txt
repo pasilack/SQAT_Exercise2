@@ -52,3 +52,12 @@ EditAction 1476964004909 PlanetExplorer.java 1405 4 3 0
 UnitTestCaseAction 1476964011082 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476964011082 TestPlanetExplorer.java FAIL
 EditAction 1476964062937 PlanetExplorer.java 1463 4 6 0
+UnitTestCaseAction 1476964067563 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964067563 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964130525 PlanetExplorer.java ADD String CurrentPosio FIELD
+RefactoringAction 1476964133039 PlanetExplorer.java RENAME CurrentPosio=>String CurrentPosition FIELD
+RefactoringAction 1476964176691 PlanetExplorer.java ADD String getCurrentPosition FIELD
+RefactoringAction 1476964177708 PlanetExplorer.java RENAME getCurrentPosition=>String getCurrentPosition() METHOD
+RefactoringAction 1476964331386 PlanetExplorer.java REMOVE getCurrentPosition() METHOD
+RefactoringAction 1476964344425 PlanetExplorer.java RENAME CurrentPosition=>String currentPosition FIELD
+EditAction 1476964349338 PlanetExplorer.java 1561 4 7 0
