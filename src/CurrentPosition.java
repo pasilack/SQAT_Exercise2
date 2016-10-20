@@ -67,6 +67,7 @@ public class CurrentPosition {
 		if(heading == 'W' && movement =='f' && x == 0) {
 			return true;
 		}
+		System.out.println(sizeX);
 		if(heading == 'E' && movement =='f' && x == sizeX-1) {
 			return true;
 		}

@@ -393,3 +393,6 @@ RefactoringAction 1476970159899 CurrentPosition.java ADD void setSizeX(int)/2 ME
 RefactoringAction 1476970162408 CurrentPosition.java RENAME setSizeX(int)/2=>void setSizeY(int) METHOD
 EditAction 1476970187323 CurrentPosition.java 1234 16 22 0
 EditAction 1476970192900 PlanetExplorer.java 3286 5 11 0
+UnitTestCaseAction 1476970194423 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476970194423 TestPlanetExplorer.java FAIL
+EditAction 1476970311296 CurrentPosition.java 1264 16 23 0
