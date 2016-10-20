@@ -161,3 +161,8 @@ UnitTestCaseAction 1476965718677 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476965718677 TestPlanetExplorer.java OK
 EditAction 1476965759109 TestPlanetExplorer.java 1723 8 27 8
 EditAction 1476965761002 PlanetExplorer.java 2083 4 9 0
+UnitTestCaseAction 1476965762465 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965762465 TestPlanetExplorer.java OK
+RefactoringAction 1476965772116 TestPlanetExplorer.java ADD void test_CommandTurnLeftTwoTimesOnANewPlanet()/2 METHOD
+RefactoringAction 1476965777128 TestPlanetExplorer.java RENAME test_CommandTurnLeftTwoTimesOnANewPlanet()/2=>void test_CommandTurnLeftThreeTimesOnANewPlanet() METHOD
+EditAction 1476965788451 TestPlanetExplorer.java 1979 9 32 9
