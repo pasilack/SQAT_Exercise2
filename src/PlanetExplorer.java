@@ -96,7 +96,8 @@ public class PlanetExplorer {
 					if(cp.isOnTheEdgeBeforeMove()) {
 						cp.setX(x-1);
 					}
-					cp.moveWest();
+					else 
+						cp.moveWest();
 				}
 				if(cp.getHeading() == 'S') {
 					cp.moveSouth();
