@@ -405,3 +405,4 @@ EditAction 1476970374395 CurrentPosition.java 1234 16 22 0
 UnitTestCaseAction 1476970377774 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476970377774 TestPlanetExplorer.java OK
 EditAction 1476970412315 PlanetExplorer.java 3332 5 13 0
+EditAction 1476970453391 CurrentPosition.java 1314 16 23 0

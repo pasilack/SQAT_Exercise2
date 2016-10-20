@@ -70,6 +70,9 @@ public class CurrentPosition {
 		if(heading == 'E' && movement =='f' && x == sizeX-1) {
 			return true;
 		}
+		if(heading == 'N' && movement =='f' && x == sizeY-1) {
+			return true;
+		}
 		return false;
 	}
 }
