@@ -56,6 +56,7 @@ public class CurrentPosition {
 	}
 	
 	public boolean isOnTheEdgeBeforeMove() {
+		if(heading == 'W' && )
 		return true;
 	}
 }
