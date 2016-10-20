@@ -49,3 +49,6 @@ RefactoringAction 1476963991556 PlanetExplorer.java ADD void setY(int) METHOD
 RefactoringAction 1476963995071 PlanetExplorer.java REMOVE setX(int) METHOD
 RefactoringAction 1476964002614 PlanetExplorer.java REMOVE setY(int) METHOD
 EditAction 1476964004909 PlanetExplorer.java 1405 4 3 0
+UnitTestCaseAction 1476964011082 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964011082 TestPlanetExplorer.java FAIL
+EditAction 1476964062937 PlanetExplorer.java 1463 4 6 0
