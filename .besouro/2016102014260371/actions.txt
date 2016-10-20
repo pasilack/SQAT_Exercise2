@@ -203,3 +203,6 @@ RefactoringAction 1476966129945 TestPlanetExplorer.java RENAME test_CommandMoveF
 RefactoringAction 1476966212002 TestPlanetExplorer.java RENAME test_CommandMoveBackwardOnceOnANewPlanet()=>void test_CommandMoveForwardBackwardOnceOnANewPlanet() METHOD
 RefactoringAction 1476966213513 TestPlanetExplorer.java RENAME test_CommandMoveForwardBackwardOnceOnANewPlanet()=>void test_CommandMoveForwardAndBackwardOnceOnANewPlanet() METHOD
 EditAction 1476966219790 TestPlanetExplorer.java 2930 13 49 13
+UnitTestCaseAction 1476966221085 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966221085 TestPlanetExplorer.java FAIL
+EditAction 1476966255324 PlanetExplorer.java 2465 4 11 0
