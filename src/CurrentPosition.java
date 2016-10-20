@@ -54,4 +54,8 @@ public class CurrentPosition {
 	public void moveEast(){
 		x++;
 	}
+	
+	public boolean isOnTheEdgeBeforeMove() {
+		return true;
+	}
 }

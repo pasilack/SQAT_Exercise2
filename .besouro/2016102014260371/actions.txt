@@ -369,3 +369,6 @@ RefactoringAction 1476969298382 CurrentPosition.java RENAME isOntheEdgeB=>void i
 RefactoringAction 1476969299891 CurrentPosition.java RENAME isOntheEdgeBefore=>void isOntheEdgeBeforeMove FIELD
 RefactoringAction 1476969301901 CurrentPosition.java RENAME isOntheEdgeBeforeMove=>void isOntheEdgeBeforeMove() METHOD
 EditAction 1476969443299 PlanetExplorer.java 3261 5 11 0
+CompilationAction 1476969443583 PlanetExplorer.java
+RefactoringAction 1476969472965 CurrentPosition.java RENAME isOntheEdgeBeforeMove()=>boolean isOnTheEdgeBeforeMove() METHOD
+EditAction 1476969474392 CurrentPosition.java 914 14 18 0
