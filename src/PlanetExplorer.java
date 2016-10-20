@@ -50,6 +50,7 @@ public class PlanetExplorer {
 			if(cp.getHeading() == 'N') {
 				cp.setHeading('W');
 			}
+			return cp.toString();
 		}
 				
 		return null;
