@@ -59,7 +59,6 @@ public class PlanetExplorer {
 			}
 			else if(cp.getHeading() == 'E') {
 				cp.setHeading('S');
-				System.out.println("moi");
 			}
 			return cp.toString();
 		}
