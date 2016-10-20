@@ -290,3 +290,13 @@ EditAction 1476968123881 TestPlanetExplorer.java 4859 20 83 20
 UnitTestCaseAction 1476968126937 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476968126937 TestPlanetExplorer.java FAIL
 EditAction 1476968250970 PlanetExplorer.java 2981 4 8 0
+UnitTestCaseAction 1476968254740 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476968254740 TestPlanetExplorer.java OK
+RefactoringAction 1476968332134 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1476968335649 PlanetExplorer.java RENAME set=>void setCurrentP FIELD
+RefactoringAction 1476968338664 PlanetExplorer.java RENAME setCurrentP=>void setCurrentPosition FIELD
+RefactoringAction 1476968342680 PlanetExplorer.java RENAME setCurrentPosition=>void setCurrentPosition() METHOD
+RefactoringAction 1476968346194 PlanetExplorer.java RENAME setCurrentPosition()=>void setCurrentPosition(int) METHOD
+RefactoringAction 1476968348208 PlanetExplorer.java RENAME setCurrentPosition(int)=>void setCurrentPosition(int, int) METHOD
+RefactoringAction 1476968373249 PlanetExplorer.java RENAME setCurrentPosition(int, int)=>void setCurrentPosition(int, int, char) METHOD
+EditAction 1476968420559 PlanetExplorer.java 3128 5 11 0

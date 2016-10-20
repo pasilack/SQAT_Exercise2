@@ -30,6 +30,13 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	//to make testing easier
+	public void setCurrentPosition(int x, int y, char heading) {
+		cp.setX(x);
+		cp.setY(y);
+		cp.setHeading(heading);
+	}
+	
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
