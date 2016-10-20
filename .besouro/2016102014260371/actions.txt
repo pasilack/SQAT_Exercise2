@@ -6,3 +6,23 @@ FileOpenedAction 1476963197329 Planet.java 30 0 0 0
 RefactoringAction 1476963218756 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_create() METHOD
 RefactoringAction 1476963221272 TestPlanetExplorer.java RENAME test_create()=>void test_createPlanet() METHOD
 EditAction 1476963340649 TestPlanetExplorer.java 206 1 2 1
+CompilationAction 1476963340793 TestPlanetExplorer.java
+CompilationAction 1476963340794 TestPlanetExplorer.java
+UnitTestCaseAction 1476963347650 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963347651 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963375363 Planet.java ADD int x FIELD
+RefactoringAction 1476963384893 Planet.java ADD int y FIELD
+RefactoringAction 1476963394422 Planet.java ADD Planet() METHOD
+RefactoringAction 1476963419581 Planet.java RENAME Planet()=>Planet(int) METHOD
+RefactoringAction 1476963422090 Planet.java RENAME Planet(int)=>Planet(int, int) METHOD
+RefactoringAction 1476963437614 Planet.java ADD int getX() METHOD
+RefactoringAction 1476963437615 Planet.java ADD void setX(int) METHOD
+RefactoringAction 1476963437615 Planet.java ADD int getY() METHOD
+RefactoringAction 1476963437616 Planet.java ADD void setY(int) METHOD
+RefactoringAction 1476963460648 Planet.java REMOVE setY(int) METHOD
+RefactoringAction 1476963464659 Planet.java REMOVE setX(int) METHOD
+RefactoringAction 1476963488253 Planet.java ADD int FIELD
+RefactoringAction 1476963566978 Planet.java ADD int METHOD
+RefactoringAction 1476963566978 Planet.java ADD void setGrid(int METHOD
+RefactoringAction 1476963580490 Planet.java REMOVE setGrid(int METHOD
+EditAction 1476963581946 Planet.java 314 4 6 0
