@@ -359,3 +359,13 @@ RefactoringAction 1476969235840 TestPlanetExplorer.java RENAME test_CommandMoveF
 RefactoringAction 1476969239353 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition99_99()=>void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_99() METHOD
 RefactoringAction 1476969241867 TestPlanetExplorer.java RENAME test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_99()=>void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_0() METHOD
 EditAction 1476969265216 TestPlanetExplorer.java 5639 23 95 23
+UnitTestCaseAction 1476969266441 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969266441 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969290341 CurrentPosition.java ADD void is FIELD
+RefactoringAction 1476969291851 CurrentPosition.java RENAME is=>void isOn FIELD
+RefactoringAction 1476969293860 CurrentPosition.java RENAME isOn=>void isOntheEdge FIELD
+RefactoringAction 1476969294872 CurrentPosition.java RENAME isOntheEdge=>void isOntheEdgeB FIELD
+RefactoringAction 1476969298382 CurrentPosition.java RENAME isOntheEdgeB=>void isOntheEdgeBefore FIELD
+RefactoringAction 1476969299891 CurrentPosition.java RENAME isOntheEdgeBefore=>void isOntheEdgeBeforeMove FIELD
+RefactoringAction 1476969301901 CurrentPosition.java RENAME isOntheEdgeBeforeMove=>void isOntheEdgeBeforeMove() METHOD
+EditAction 1476969443299 PlanetExplorer.java 3261 5 11 0

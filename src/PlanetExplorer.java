@@ -86,20 +86,23 @@ public class PlanetExplorer {
 				break;
 			case 'f' :
 				if(cp.getHeading() == 'N') {
-					if(cp.getY() + 1 > 99) {
+					if(cp.getY() + 1 > y-1) {
 						cp.setY(0);
 					}
 					else
 						cp.moveNorth();
 				}
 				if(cp.getHeading() == 'W') {
+					if(cp.isOntheEdgeBeforeMove()) {
+						cp.setX(x-1);
+					}
 					cp.moveWest();
 				}
 				if(cp.getHeading() == 'S') {
 					cp.moveSouth();
 				}
 				if(cp.getHeading() == 'E') {
-					if(cp.getX() + 1 > 99) {
+					if(cp.getX() + 1 > x-1) {
 						cp.setX(0);
 					}
 					else
@@ -109,7 +112,7 @@ public class PlanetExplorer {
 			case 'b' : 
 				if(cp.getHeading() == 'N') {
 					if(cp.getY() - 1 < 0) {
-						cp.setY(99);
+						cp.setY(y-1);
 					}
 					else
 						cp.moveSouth();
@@ -122,7 +125,7 @@ public class PlanetExplorer {
 				}
 				if(cp.getHeading() == 'E') {
 					if(cp.getX() - 1 < 0) {
-						cp.setX(99);
+						cp.setX(x-1);
 					}
 					else
 						cp.moveWest();
