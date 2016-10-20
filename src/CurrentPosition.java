@@ -73,6 +73,9 @@ public class CurrentPosition {
 		if(heading == 'N' && movement =='f' && x == sizeY-1) {
 			return true;
 		}
+		if(heading == 'S' && movement =='f' && x == 0) {
+			return true;
+		}
 		return false;
 	}
 }
