@@ -88,7 +88,7 @@ public class PlanetExplorer {
 				break;
 			case 'f' :
 				if(cp.getHeading() == 'N') {
-					if(cp.getY() + 1 > y-1) {
+					if(cp.isOnTheEdgeBeforeMove('f')) {
 						cp.setY(0);
 					}
 					else
