@@ -33,6 +33,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
 		pe.executeCommand("r");
 		String result = pe.executeCommand("r");
-		assertEquals("0,0,E" , result);
+		assertEquals("0,0,S" , result);
 	}
 }
