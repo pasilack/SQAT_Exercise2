@@ -406,3 +406,7 @@ UnitTestCaseAction 1476970377774 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476970377774 TestPlanetExplorer.java OK
 EditAction 1476970412315 PlanetExplorer.java 3332 5 13 0
 EditAction 1476970453391 CurrentPosition.java 1314 16 23 0
+UnitTestCaseAction 1476970471184 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970471184 TestPlanetExplorer.java OK
+RefactoringAction 1476970493115 TestPlanetExplorer.java ADD void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_0()/2 METHOD
+EditAction 1476970508137 TestPlanetExplorer.java 5896 24 99 24

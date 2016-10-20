@@ -190,4 +190,12 @@ public class TestPlanetExplorer {
 		String result = pe.executeCommand("f");
 		assertEquals("99,0,W" , result);
 	}
+	
+	@Test
+	public void test_CommandMoveForwardOnceWhileHeadingIsWestOnPosition0_0() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		pe.setCurrentPosition(0, 0, 'S');
+		String result = pe.executeCommand("f");
+		assertEquals("0,99,S" , result);
+	}
 }
